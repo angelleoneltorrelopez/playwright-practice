@@ -7,12 +7,13 @@
     "test": "npx playwright test",
     "test:debug": "npx playwright test --debug",
     "test:api": "npx playwright test apiTest.spec.js --project=chromium",
-    "report": "npx playwright show-report"
+    "report": "npx playwright show-report",
+    "install": "npx playwright install"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.28.1"
+    "@playwright/test": "^1.29.1"
   }
 }

@@ -6,7 +6,8 @@ exports.Login = class Login {
         this.usernameInput = page.locator('[id="user-name"]');
         this.passwordInput = page.locator('[id="password"]');
         this.submitButton = page.locator('input[type="submit"]');
-        this.titleProducts = page.locator('span', { hasText: 'Products' })
+        this.titleProducts = page.locator('span', { hasText: 'Products' });
+        this.errorMessage = page.locator('h3[data-test="error"]');
     }
 
     async goto() {

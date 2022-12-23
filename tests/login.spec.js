@@ -9,9 +9,17 @@ test.describe('Login test', () => {
         await expect(loginPage.titleProducts).toBeVisible()
     });
 
-    test('login failed', async ({ page }) => {
+    test('Login failed', async ({ page }) => {
         const loginPage = new Login(page);
         await loginPage.goto();
         await loginPage.login('standard_user222', 'secret_sauce');
+        await expect(loginPage.errorMessage).toHaveText('Epic sadface: Username and password do not match any user in this service');
+    });
+
+    test('User blocked', async ({ page }) => {
+        const loginPage = new Login(page);
+        await loginPage.goto();
+        await loginPage.login('locked_out_user', 'secret_sauce');
+        await expect(loginPage.errorMessage).toHaveText('Epic sadface: Sorry, this user has been locked out.');
     });
 });
