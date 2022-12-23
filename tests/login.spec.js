@@ -20,6 +20,6 @@ test.describe('Login test', () => {
         const loginPage = new Login(page);
         await loginPage.goto();
         await loginPage.login('locked_out_user', 'secret_sauce');
-        await expect(loginPage.errorMessage).toHaveText('Epic sadface: Sorry, this user has been locked out.');
+        await expect(loginPage.errorMessage).toHaveText('Epic sadface: Sorry, this user has been locked out.22');
     });
 });
