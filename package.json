@@ -8,7 +8,8 @@
     "test:debug": "npx playwright test --debug",
     "test:api": "npx playwright test apiTest.spec.js --project=chromium",
     "report": "npx playwright show-report",
-    "install": "npx playwright install"
+    "install": "npx playwright install",
+    "open": "npx playwright open"
   },
   "keywords": [],
   "author": "",

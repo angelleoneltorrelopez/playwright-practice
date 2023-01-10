@@ -6,7 +6,7 @@
 ## Requirement
 - [Nodejs] ^16.15.0
 - NPM ^8.5.5
-- Playwright Test for VSCode
+- Playwright Test for VSCode (Extension)
 
 [Nodejs]: https://nodejs.org/en/
 
@@ -15,20 +15,35 @@
 | ------------------------------ | ------- |
 | [@playwright/test]             |  1.29.1 |
 
-[@playwright/test]: https://www.npmjs.com/package/@playwright/test
+[@playwright/test]: https://github.com/Microsoft/playwright
 
 ## Install dependencies
 ```bash
 npm install
 ```
 ```bash
-npx playwright install
+npm run install
 ```
 
 ## Commands
 ### Run tests
 ```bash
 npm run test
+```
+
+### Run tests - Debug
+```bash
+npm run test:debug
+```
+
+### Run API tests
+```bash
+npm run test:api
+```
+
+### Test runner
+```bash
+npm run open
 ```
 
 ### Report
