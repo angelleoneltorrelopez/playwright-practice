@@ -1,5 +1,6 @@
 <p align="center">
-<a href="https://www.cognits.co/"><img src="https://www.cognits.co/_next/static/image/assets/images/Logo/black/logo_black.e6d22562719e8f844321ede2133cb698.svg" max-width="200px"/></a>  
+  <a href="https://playwright.dev/"><img src="https://playwright.dev/img/playwright-logo.svg" width="300" height="100"/></a>
+<a href="https://www.ingenieriazeros.com/"><img src="https://1.bp.blogspot.com/-Q_GalsLLP0A/YYoUh73-MuI/AAAAAAAAMNc/OB4AIcWjB-UWJDKgH3c-kd0Syqt92lI-ACNcBGAsYHQ/s320/IMG_1169.PNG" width="150" height="150"></a>
 </p>
 
 # USE TEMPLATE
